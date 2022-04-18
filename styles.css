@@ -114,12 +114,7 @@
     margin-right: 10px;
   }
   
-/* Clear floats after the columns */
-.row::after {
-    content: "";
-    display: flex;
-    clear: both;
-  }
+
   
   /* Style the footer */
   .footer {
@@ -147,6 +142,13 @@
   width: 25%;
 }
 
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+  
 }
 
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
