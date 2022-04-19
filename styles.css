@@ -90,11 +90,10 @@
   } 
 
  
-  content {
+  .main {
     display: block;
     width: 100%;
     background-color: #dadada;
-    height: 100%;
   }
 
   .content {
