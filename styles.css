@@ -94,11 +94,11 @@
     display: flex;
     width: 100%;
     background-color: #dadada;
-    height: auto;
+    height: 100vh;
   }
 
   .mainframe {
-    height: 100%;
+    height: inherit;
     width: 100%;
     border: none;
   }
