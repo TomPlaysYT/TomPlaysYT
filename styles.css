@@ -95,15 +95,14 @@
     width: 25%;
     background-color: #dadada;
     padding-left: 0px;
-    height: 100vh;
+    height: 100%;
   }
   
   .leftcolumn {
     float: left;
     width: 100%;
     background-color: #dadada;
-    height: auto;
-    box-sizing: content-box;
+    height: 100%;
   }
 
   .content {
