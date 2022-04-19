@@ -21,7 +21,7 @@ body {
 /* Style the list inside the menu */
 .topnav {
   list-style-type: none;
-  padding: 0;
+  padding-bottom: 2px;
   overflow: hidden;
   background-color: black;
   position: sticky;
