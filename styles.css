@@ -92,6 +92,7 @@
  
   .main {
     display: inline;
+    width: 100%;
     background-color: #dadada;
   }
 
