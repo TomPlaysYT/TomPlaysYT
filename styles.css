@@ -21,11 +21,11 @@ body {
 /* Style the list inside the menu */
 .topnav {
   list-style-type: none;
-  padding: 0;
+  padding: 1px;
   margin-bottom: 2px;
   overflow: hidden;
   background-color: black;
-  position: sticky;
+  position: relative;
   margin-top: 5px;
   top: 1px;
 }
@@ -36,7 +36,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  position: sticky;
+  position: relative;
 }
 
 .topnav a:hover {
