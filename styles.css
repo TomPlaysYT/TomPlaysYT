@@ -89,16 +89,8 @@
     display: inline-flex;
   } 
 
-  .rightcolumn {
-    display: none;
-    float: right;
-    width: 25%;
-    background-color: #dadada;
-    padding-left: 0px;
-    height: 100%;
-  }
-  
-  .leftcolumn {
+ 
+  .main {
     float: left;
     width: 100%;
     background-color: #dadada;
@@ -115,12 +107,6 @@
     height: auto;
   }
   
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: flex;
-  clear: both;
-}
   
   /* Style the footer */
   .footer {
