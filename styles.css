@@ -90,8 +90,10 @@
   } 
 
  
-  .main {
-    display: flex;
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
     width: 100%;
     background-color: #dadada;
     height: auto;
