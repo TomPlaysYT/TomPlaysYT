@@ -94,7 +94,7 @@
     display: block;
     width: 100%;
     background-color: #dadada;
-    height: 150%;
+    height: auto;
   }
 
   .content {
