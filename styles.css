@@ -102,7 +102,7 @@
     float: left;
     width: 100%;
     background-color: #dadada;
-    height: 100vh;
+    height: auto;
     box-sizing: content-box;
   }
 
