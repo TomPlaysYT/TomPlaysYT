@@ -103,6 +103,7 @@
     width: 100%;
     background-color: #dadada;
     height: 100vh;
+    display: inline-block;
   }
 
   .content {
