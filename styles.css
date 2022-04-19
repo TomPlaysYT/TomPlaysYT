@@ -27,7 +27,7 @@ body {
   background-color: black;
   position: sticky;
   margin-top: 5px;
-  top: 0;
+  top: 1px;
 }
 
 .topnav a {
