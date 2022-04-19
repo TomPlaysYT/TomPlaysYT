@@ -91,7 +91,7 @@
 
  
   .main {
-    display: block;
+    display: flex;
     width: 100%;
     background-color: #dadada;
     height: auto;
