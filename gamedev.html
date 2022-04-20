@@ -34,10 +34,10 @@
 </head>
 
 <body>
-    <a href="index_en.html" class="headerbtn">
+    <a href="index.html" class="headerbtn">
         <div class="header">
-            <h1>Jan RAP and his mate</h1>
-            <p>Welcome to our website!</p>
+            <h1>Jan RAP en z'n Maat</h1>
+            <h3>Game development</h3>
         </div>
     </a>
 
@@ -45,38 +45,79 @@
     <div class="topnav" id="nav">
         <a href="index.html">Startpagina</a>
         <a href="muziek.html">Muziek</a>
-        <a href="gamedev.html">Game Development</a>
+        <a href="gamedev.html" class="active">Game Development</a>
         <div class="dropdown">
-            <button href="javascript:void(0)" class="dropbtn">Taal</button>
+            <a href="javascript:void(0)" class="dropbtn">Taal</a>
             <div class="dropdown-content">
-                <a href="index.html">Dutch</a>
+                <a href="index.html" class="active">Dutch</a>
                 <a href="index_en.html">English</a>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="content">
+                <h3 id="soortgames">Soort games</h3>
+                <p>Bij Jan RAP en z'n Maat werken we met name aan racesimulatie games.</p>
+            </div>
 
+            <div class="content">
+                <h3 id="musicracer">Music Racer</h3>
+                <p>Music Racer is onze meest succesvolle game.</p>
 
-    <div class="footer" id="footer">
-        <div class="footcolright">
-            <div class="footcontent">
-                <h4>Disclaimer</h4>
+                <h4 id="overmusicracer">Over Music Racer</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tortor porttitor, aliquam
-                    ipsum vel, ultricies nunc. Donec elit lectus, ultrices a facilisis in, auctor nec nisl. Donec
-                    facilisis neque sit amet nulla rutrum, placerat tristique sem rutrum. Aliquam erat volutpat. Duis
-                    molestie vulputate felis, sit amet aliquet ligula varius vitae. Donec eu malesuada felis. Cras
-                    euismod odio eget risus rhoncus auctor. Etiam rutrum, augue dapibus accumsan ullamcorper, sem neque
-                    eleifend lectus, eu tincidunt ante tortor nec elit. Nunc condimentum ipsum neque, a mattis sapien
-                    viverra ac. Suspendisse fringilla libero sem, nec volutpat lorem rutrum sit amet. Sed laoreet ipsum
-                    vel elit dapibus pretium. </p>
+                    Het genre van de game is: racen
+                </p>
+
+                <p>
+                    De game gaat over een racecoureur die alleen snel kan racen als hij naar muziek luistert tijdens het
+                    rijden. Door het winnen van races speel je steeds meer nummers vrij.
+                </p>
+
+                <p>Ik heb zelf deze game al meerdere malen uitgespeeld en het is nog steeds een van mijn favoriete games
+                </p>
+            </div>
+
+            <div class="content">
+                <h4>Onze rol</h4>
+                <p>
+                    Onze rol bij het ontwikkelen van de games is vooral de link tussen de graphics en de muziek. Wij
+                    zorgen
+                    er dus met name voor dat de juiste muziek bij de juiste levels word gekozen, en dat de muziek ook
+                    gelicentieerd word.
+                </p>
+                <p>Ook zorgen wij voor alle geluidseffecten, die we ook allemaal zelf maken.</p>
+                <p>Een aantal voorbeelden van geluidseffecten die door ons zijn gemaakt:
+                <ul>
+                    <li>De geluidseffecten in de menu's</li>
+                    <li>Het motorgeluid van de auto's</li>
+                    <li>Geluidseffecten bij pitstops</li>
+                </ul>
+                </p>
             </div>
         </div>
 
+        <div class="rightcolumn">
+            <div class="content">
+                <h2>Inhoud</h2>
+                <ul>
+                    <li><a href="#soortgames">Soort games</a></li>
+                    <li><a href="#musicracer">Onze meest succesvolle game</a></li>
+                    <li><a href="#overmusicracer">Over Music Racer</a></li>
+                    <li><a href="#onzerol">Onze rol</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+
         <div class="footcolleft">
             <div class="footcontent">
+                <h4>Contact</h4>
+                <p>Gebruik dit formulier om contact met ons op te nemen:</p>
                 <div class="contactform">
-                    <h1>Contact</h1>
-                    <p>Use this form to contact us:</p>
                     <form>
                         <label for="name">Name:</label><br>
                         <input type="text" name="name">
@@ -91,20 +132,28 @@
                         <br><br>
                     </form>
                 </div>
-                <h6 style="text-align:left">&#169; 2022 Tom van der Pasch + Marijn Overweel</h6>
             </div>
+            <h6 style="text-align:left">&#169; 2022 Tom van der Pasch + Marijn Overweel</h6>
         </div>
 
-        <div class="footcolmid">
-            <div class="footcontent">
-                <h4>Routeplanner</h4>
-                <p>Wil je ons bezoeken? Gebruik dan de kaart hieronder om je route te plannen:</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78730.31944764555!2d4.420788264961442!3d51.92807117629347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b7605f54c47d%3A0x5229bbac955e4b85!2sRotterdam!5e0!3m2!1snl!2snl!4v1649769306989!5m2!1snl!2snl"
-                    width="100%" height="400px" style="border:0;margin:5px;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+    <div class="footcolmid">
+        <div class="footcontent">
+            <h4>Routeplanner</h4>
+            <p>Wil je ons bezoeken? Gebruik dan de kaart hieronder om je route te plannen:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78730.31944764555!2d4.420788264961442!3d51.92807117629347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b7605f54c47d%3A0x5229bbac955e4b85!2sRotterdam!5e0!3m2!1snl!2snl!4v1649769306989!5m2!1snl!2snl"
+                width="100%" height="400px" style="border:0;margin:5px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
+    <div class="footcolright">
+        <div class="footcontent">
+            <h4>Disclaimer</h4>
+            <p>
+                <a href="disclaimer.html">Bekijk disclaimer</a>
+            </p>
+        </div>
+    </div>
 
     </div>
 
