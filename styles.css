@@ -58,6 +58,7 @@ body {
   float: right;
   display: block;
   color: white;
+  background-color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -66,17 +67,17 @@ body {
 .topnav a:hover,
 .dropdown:hover,
 .dropbtn {
-  background-color: grey;
+  background-color: black;
 }
 
 .dropdown {
-  display: inline;
+  display: inline-block;
   float: right;
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
