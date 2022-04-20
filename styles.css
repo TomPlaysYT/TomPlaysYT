@@ -118,6 +118,11 @@ body {
   padding-left: 20px;
 }
 
+ul {
+  list-style-type: none;
+  display: block;
+}
+
 .content {
   background-color: #dadada;
   padding: 20px;
