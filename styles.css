@@ -157,9 +157,7 @@ body {
   height: auto;
 }
 
-.contactform {
-  text-align: left;
-}
+
 
 .footcolleft {
   float: left;
@@ -180,7 +178,10 @@ body {
   width: 24%;
 }
 
+.contactform {
+  text-align: left;
 }
+
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
