@@ -118,9 +118,18 @@ body {
   padding-left: 20px;
 }
 
-ul {
+.rightcolumn ul {
   list-style-type: none;
   display: block;
+}
+
+.right column li a {
+  margin-bottom: 4px;
+  display: block;
+  padding: 8px;
+  background-color: #eee;
+  text-decoration: none;
+  color: #666;
 }
 
 .content {
