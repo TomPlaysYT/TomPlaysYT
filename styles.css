@@ -71,7 +71,6 @@ body {
 
 li.dropdown {
   display: inline-block;
-  float: right;
 }
 
 .dropdown-content {
