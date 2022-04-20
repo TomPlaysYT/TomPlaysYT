@@ -96,7 +96,7 @@ body {
 }
 
 .dropdown:hover .dropdown-content {
-  display: table;
+  display: block;
 }
 
 .row {
