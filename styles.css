@@ -130,7 +130,7 @@ body {
 
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -158,24 +158,20 @@ body {
 }
 
 .footcolright {
-  float: right;
-  width: 23%;
-  margin-left: 1%;
-  margin-right: 1%;
+  float: left;
+  width: 24%;
 }
 
 .footcolmid {
   float: left;
-  width: 48%;
+  width: 50%;
   margin-left: 1%;
   margin-right: 1%;
 }
 
 .footcolleft {
   float: left;
-  width: 23%;
-  margin-left: 1%;
-  margin-right: 1%;
+  width: 24%;
 }
 
 }
