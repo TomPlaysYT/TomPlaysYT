@@ -65,12 +65,13 @@ body {
 }
 
 .topnav a:hover,
-.dropdown:hover dropbtn {
+.dropdown:hover .dropbtn{
   background: grey;
 }
 
 .dropdown {
   display: inline-block;
+  float: right;
 }
 
 .dropdown-content {
