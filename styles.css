@@ -118,10 +118,6 @@ body {
   padding-left: 20px;
 }
 
-a:visited {
-  color: blue;
-}
-
 .content {
   background-color: #dadada;
   padding: 20px;
