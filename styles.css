@@ -157,14 +157,15 @@ body {
   height: auto;
 }
 
+.contactform {
+  text-align: left;
+}
 .footcolleft {
   float: left;
   width: 24%;
 }
 
-.contactform {
-  text-align: left;
-}
+
 
 .footcolmid {
   float: left;
