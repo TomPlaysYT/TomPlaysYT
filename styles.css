@@ -69,7 +69,7 @@ body {
   background: grey;
 }
 
-li.dropdown {
+.dropdown {
   display: inline-block;
 }
 
