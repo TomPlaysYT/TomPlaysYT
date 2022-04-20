@@ -157,9 +157,13 @@ body {
   height: auto;
 }
 
-.footcolright {
+.footcolleft {
   float: left;
   width: 24%;
+}
+
+.contactform {
+  text-align: left;
 }
 
 .footcolmid {
@@ -169,7 +173,7 @@ body {
   margin-right: 1%;
 }
 
-.footcolleft {
+.footcolright {
   float: left;
   width: 24%;
 }
