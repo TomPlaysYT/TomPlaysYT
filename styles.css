@@ -65,8 +65,7 @@ body {
 }
 
 .topnav a:hover,
-.dropdown:hover,
-.dropbtn {
+.dropdown:hover {
   background: grey;
 }
 
@@ -78,7 +77,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: grey;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
